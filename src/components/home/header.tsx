@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo & Title */}
           <div className="text-xl font-bold whitespace-nowrap shrink flex items-center">
             <div className="size-8 rounded-full shadow-sm mr-1.5">
-              <Image src={logo} width={100} height={100} alt="logo" />
+              <Image src={logo} width={700} height={700} alt="logo" preload={true} />
             </div>
             <Link href={"/"}>
               <span className="text-secondary">Dikshant</span>{" "}

@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${plusJakartaSans.className}`}>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="flex flex-1 justify-center bg-[#fffcfa]">{children}</main>
+          <main className="flex flex-1 justify-center bg-white">{children}</main>
           <Footer />
         </div>
       </body>

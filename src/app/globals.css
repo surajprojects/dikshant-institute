@@ -3,7 +3,8 @@
 @theme {
   --color-primary: #f4831f;
   --color-secondary: #1d66b9;
-  --color-muted: #7c706a;
+  --color-muted: #656c7b;
+  --color-foreground: #f5f7fa;
 }
 
 @layer components {
@@ -17,5 +18,8 @@
 
   .glass {
     @apply bg-white/30 backdrop-blur-sm border-b border-white/10 shadow-sm;
+  }
+  .section-wrapper {
+    @apply mx-auto w-full xl:max-w-7xl px-4 py-20 md:px-8 scroll-mt-8;
   }
 }
