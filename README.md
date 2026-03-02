@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+# Dikshant Institute
 
-First, run the development server:
+This is the official website of **Dikshant Institute**, a trusted computer education and academic coaching center. Built using **Next.js + React + Tailwind CSS**, it provides information about courses, faculty, admissions, and facilities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Hero Section** – Eye-catching introduction and call-to-action  
+- **About Us** – Mission, vision, and core values  
+- **Courses Section** – Comprehensive course offerings  
+- **Faculty Section** – Meet the experienced instructors  
+- **Timings Section** – Class schedules and duration information  
+- **Why Dikshant** – Unique selling points and advantages  
+- **Testimonials** – Student success stories and reviews  
+- **Admission Enquiry Form** – Easy enrollment process  
+- **Contact Section** – Get in touch with the institute  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 16** – Modern React framework  
+- **React 19** – Component-based frontend  
+- **Tailwind CSS 4** – Utility-first CSS framework  
+- **TypeScript** – Type safety and better developer experience  
+- **Lucide React** – Beautiful icon library  
 
-## Learn More
+## ScreenShots
 
-To learn more about Next.js, take a look at the following resources:
+![Screenshot](/public/dikshant-institute-screenshot.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This web app is deployed using [Vercel](https://vercel.com/) by Tiger. You can access the live version here: [Dikshant Institute](https://dikshant-institute.vercel.app)
 
-## Deploy on Vercel
+## Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository
+2. Navigate to the folder
+3. Install dependencies using `pnpm install`
+4. Start the development server with `pnpm dev`
+5. Open the app in your browser at http://localhost:3000
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Made with ❤️ by Suraj Chauhan
+
+---
