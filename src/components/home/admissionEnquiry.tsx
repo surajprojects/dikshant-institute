@@ -10,7 +10,7 @@ export default function AdmissionEnquiry() {
   };
   return (
     <>
-      <div className="section-wrapper">
+      <div id="admissionenquiry" className="section-wrapper">
         {/* Header */}
         <SectionHeader
           title={admissionEnquiryData.title}

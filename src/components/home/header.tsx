@@ -7,27 +7,27 @@ export default function Header() {
   const navLinks: LinksTypeList = [
     {
       name: "about",
-      path: "#",
+      path: "#about",
     },
     {
       name: "courses",
-      path: "#",
+      path: "#courses",
     },
     {
       name: "timings",
-      path: "#",
+      path: "#timings",
     },
     {
       name: "faculty",
-      path: "#",
+      path: "#faculty",
     },
     {
       name: "testimonials",
-      path: "#",
+      path: "#testimonials",
     },
     {
       name: "contact",
-      path: "#",
+      path: "#contact",
     },
   ];
   return (
@@ -59,7 +59,7 @@ export default function Header() {
 
             {/* CTA */}
             <Link
-              href="#"
+              href="#admissionenquiry"
               className="flex justify-center items-center text-white bg-primary px-3 py-2 rounded-lg btn hover:bg-primary/90"
             >
               Enroll Now

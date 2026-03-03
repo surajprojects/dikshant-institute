@@ -7,54 +7,54 @@ export default function Footer() {
   const quickLinks: LinksTypeList = [
     {
       name: "about",
-      path: "#",
+      path: "#about",
     },
     {
       name: "courses",
-      path: "#",
+      path: "#courses",
     },
     {
       name: "timings",
-      path: "#",
+      path: "#timings",
     },
     {
       name: "faculty",
-      path: "#",
+      path: "#faculty",
     },
     {
       name: "testimonials",
-      path: "#",
+      path: "#testimonials",
     },
     {
       name: "contact",
-      path: "#",
+      path: "#contact",
     },
   ];
 
   const coursesLinks: LinksTypeList = [
     {
       name: "DCA",
-      path: "#",
+      path: "#courses",
     },
     {
       name: "PGDCA",
-      path: "#",
+      path: "#courses",
     },
     {
       name: "CPCT Prep",
-      path: "#",
+      path: "#courses",
     },
     {
       name: "TALLY",
-      path: "#",
+      path: "#courses",
     },
     {
       name: "CIT",
-      path: "#",
+      path: "#courses",
     },
     {
       name: "CCA",
-      path: "#",
+      path: "#courses",
     },
   ];
 
@@ -65,7 +65,7 @@ export default function Footer() {
     },
     {
       name: "instagram",
-      path: "#",
+      path: "https://www.instagram.com/dikshantinstitute",
     },
     {
       name: "x",
@@ -73,7 +73,7 @@ export default function Footer() {
     },
     {
       name: "youtube",
-      path: "#",
+      path: "https://www.youtube.com/@dikshantinstitute",
     },
   ];
   return (
@@ -130,13 +130,14 @@ export default function Footer() {
             <div className="text-gray-200 w-fit text-xs flex flex-col justify-center gap-y-3 self-start">
               <p className="text-white font-bold text-sm mb-1">Follow Us</p>
               {followHandles.map((item, idx) => (
-                <Link
+                <a
                   key={idx}
                   href={item.path}
+                  target="_blank"
                   className="transition-effect hover:text-gray-100 capitalize"
                 >
                   {item.name}
-                </Link>
+                </a>
               ))}
             </div>
           </div>

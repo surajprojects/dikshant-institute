@@ -39,7 +39,7 @@ export default function About() {
   ];
   return (
     <>
-      <div className="section-wrapper">
+      <div id="about" className="section-wrapper">
         {/* Header */}
         <SectionHeader
           title={aboutData.title}

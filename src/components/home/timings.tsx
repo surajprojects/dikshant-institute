@@ -21,7 +21,7 @@ export default function Timings() {
     {
       icon: "Sunset",
       title: "evening batch",
-      timing: "7:00 AM - 12:00 PM",
+      timing: "3:00 PM - 7:00 PM",
       description: "Perfect for afternoon and evening learners.",
     },
     {
@@ -34,7 +34,7 @@ export default function Timings() {
   ];
   return (
     <>
-      <div className="section-wrapper">
+      <div id="timings" className="section-wrapper">
         {/* Header */}
         <SectionHeader
           title={timingsData.title}

@@ -34,7 +34,7 @@ export default function Contact() {
   ];
   return (
     <>
-      <div className="bg-foreground">
+      <div id="contact" className="bg-foreground">
         <div className="section-wrapper">
           {/* Header */}
           <SectionHeader

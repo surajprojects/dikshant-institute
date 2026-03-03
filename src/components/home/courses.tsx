@@ -63,7 +63,7 @@ export default function Courses() {
   ];
   return (
     <>
-      <div className="bg-foreground">
+      <div id="courses" className="bg-foreground">
         <div className="section-wrapper">
           {/* Header */}
           <SectionHeader

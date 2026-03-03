@@ -13,32 +13,32 @@ export default function Testimonials() {
   const testimonialCardsData: TestimonialCardTypeList = [
     {
       testimonial:
-        "Dikshant Institute gave me the practical skills I needed to land my first IT job. The faculty is incredibly supportive.",
-      name: "ankit patel",
+        "During my DCA course at Dikshant Institute, I learned practical computer skills that are directly applicable in office and IT environments.",
+      name: "pawan sen",
       course: "DCA",
     },
     {
       testimonial:
         "The PGDCA program was thorough and well-structured. I feel confident in my computer skills now.",
-      name: "sneha tiwari",
+      name: "shivani meena",
       course: "PGDCA",
     },
     {
       testimonial:
         "I completed Tally here and immediately got placed in an accounting firm. Excellent training!",
-      name: "rahul jain",
+      name: "Priyanka Prajapati",
       course: "TALLY",
     },
     {
       testimonial:
         "Thanks to Dikshant Institute, I cleared CPCT in my first attempt. Their preparation strategy is unmatched.",
-      name: "priya kushwaha",
+      name: "suraj chauhan",
       course: "CPCT prep",
     },
   ];
   return (
     <>
-      <div className="bg-foreground">
+      <div id="testimonials" className="bg-foreground">
         <div className="section-wrapper">
           {/* Header */}
           <SectionHeader

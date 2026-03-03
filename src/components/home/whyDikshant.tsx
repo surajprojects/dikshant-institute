@@ -45,7 +45,7 @@ export default function WhyDikshant() {
   ];
   return (
     <>
-      <div className="section-wrapper">
+      <div id="whydikshant" className="section-wrapper">
         {/* Header */}
         <SectionHeader
           title={whyDikshantData.title}

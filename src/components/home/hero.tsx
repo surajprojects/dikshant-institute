@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRightIcon, GraduationCap } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -37,19 +38,19 @@ export default function Hero() {
 
             {/* CTA */}
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4 sm:mt-0">
-              <button
-                type="button"
+              <Link
+                href="#admissionenquiry"
                 className="text-white text-sm bg-primary py-3 px-8 rounded-lg flex justify-center items-center font-semibold hover:bg-primary/90 btn"
               >
                 Enroll Now
                 <ArrowRightIcon className="size-4 ml-2" />
-              </button>
-              <button
-                type="button"
+              </Link>
+              <Link
+                href="#courses"
                 className="text-secondary border border-secondary/60 text-sm bg-white py-3 px-8 rounded-lg flex justify-center items-center font-semibold hover:bg-gray-100 btn"
               >
                 View Courses
-              </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -12,34 +12,30 @@ export default function Faculty() {
 
   const facultyCardsData: FacultyCardTypeList = [
     {
-      abbreviation: "rs",
-      name: "mr. rajesh sharma",
+      abbreviation: "ab",
+      name: "mr. anuj singh bhadoriya",
       position: "founder & director",
       experience:
-        "Visionary educator with 10+ years in computer education and institute management.",
+        "Visionary educator with 10+ years of experience in academic excellence and student career development.",
     },
     {
-      abbreviation: "ps",
-      name: "mrs. priya sharma",
+      abbreviation: "ab",
+      name: "mr. ashish singh bhadoriya",
       position: "co-founder & director",
-      experience: "Passionate about academic excellence and student career development.",
+      experience:
+        "Passionate educator with 8+ years of experience in computer education and institute management.",
     },
     {
-      abbreviation: "av",
-      name: "mr. amit verma",
+      abbreviation: "sc",
+      name: "mr. suraj chauhan",
       position: "senior faculty",
-      experience: "Expert in Tally, DCA, and PGDCA with hands-on industry experience.",
-    },
-    {
-      abbreviation: "ng",
-      name: "ms. neha gupta",
-      position: "faculty member",
-      experience: "Specializes in CPCT preparation and computer fundamentals training.",
+      experience:
+        "Expert in Tally and Full-Stack Development, with hands-on experience building modern web applications.",
     },
   ];
   return (
     <>
-      <div className="bg-foreground">
+      <div id="faculty" className="bg-foreground">
         <div className="section-wrapper">
           {/* Header */}
           <SectionHeader
@@ -49,7 +45,7 @@ export default function Faculty() {
             capitalize={false}
           />
           {/* Body */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mt-14">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-14">
             {facultyCardsData.map((item, idx) => (
               <FacultyCard
                 key={idx}
