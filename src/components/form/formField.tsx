@@ -32,7 +32,7 @@ export default function FormField({
   return (
     <>
       {isTextHolder ? (
-        <div className="flex flex-col my-3 flex-1">
+        <div className="flex flex-col my-2 md:my-3 flex-1">
           <label htmlFor={id} className="font-sans font-medium text-sm text-gray-800">
             {title}
           </label>
@@ -57,7 +57,7 @@ export default function FormField({
             ))}
         </div>
       ) : (
-        <div className="flex flex-col my-3 flex-1">
+        <div className="flex flex-col my-2 md:my-3 flex-1">
           <label htmlFor={id} className="font-sans font-medium text-sm text-gray-800">
             {title}
           </label>

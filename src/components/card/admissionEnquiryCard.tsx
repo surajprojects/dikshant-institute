@@ -1,8 +1,8 @@
 "use client";
 
-import { ChangeEvent, useState } from "react";
-import FormField from "../form/formField";
 import { Send } from "lucide-react";
+import FormField from "../form/formField";
+import { ChangeEvent, useState } from "react";
 
 export default function AdmissionEnquiryCard() {
   const [formData, setFormData] = useState({
@@ -26,8 +26,8 @@ export default function AdmissionEnquiryCard() {
   };
   return (
     <>
-      <div className="w-lg rounded-2xl bg-white border border-gray-50 p-4 shadow-sm hover:shadow-md transition-effect">
-        <div className="flex gap-4">
+      <div className="w-full sm:w-lg rounded-2xl bg-white border border-gray-50 p-4 shadow-sm hover:shadow-md transition-effect">
+        <div className="flex flex-wrap gap-x-3 sm:gap-x-4">
           {/* Full Name */}
           <FormField
             id="fullName"
@@ -46,7 +46,7 @@ export default function AdmissionEnquiryCard() {
           />
         </div>
         {/* Course */}
-        <div className="flex flex-col my-3 flex-1">
+        <div className="flex flex-col my-2 md:my-3 flex-1">
           <label htmlFor="course" className="font-sans font-medium text-sm text-gray-800">
             Course Interested In
           </label>
@@ -78,7 +78,7 @@ export default function AdmissionEnquiryCard() {
             value={formData.message}
             onChange={handleChange}
             placeholder="Any questions or details..."
-            className="border border-gray-300 font-sans font-normal text-[#2a2522] rounded-xl px-3 py-2 my-2 text-sm outline-none focus-within:ring-secondary focus-within:ring-2 focus-within:ring-offset-2 transition duration-75 ease-out min-h-20"
+            className="border border-gray-300 font-sans font-normal text-[#2a2522] rounded-xl px-3 py-2 my-2 text-sm outline-none focus-within:ring-secondary focus-within:ring-2 focus-within:ring-offset-2 transition duration-75 ease-out min-h-28"
           ></textarea>
           <button
             type="button"

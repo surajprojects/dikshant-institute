@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import MobileHeader from "./mobileHeader";
 import logo from "@/assets/images/logo.png";
 import { LinksTypeList } from "@/utils/types/linksType";
 
@@ -65,6 +66,9 @@ export default function Header() {
               Enroll Now
             </Link>
           </div>
+
+          {/* Mobile Header */}
+          <MobileHeader navLinks={navLinks} />
         </nav>
       </header>
     </>
