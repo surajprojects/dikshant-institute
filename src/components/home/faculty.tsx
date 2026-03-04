@@ -16,7 +16,7 @@ export default function Faculty() {
       name: "mr. anuj singh bhadoriya",
       position: "founder & director",
       experience:
-        "Visionary educator with 10+ years of experience in academic excellence and student career development.",
+        "Visionary educator with 12+ years of experience in academic excellence, ncert specialist and student career development.",
     },
     {
       abbreviation: "ab",

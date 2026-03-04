@@ -19,7 +19,7 @@ export default function Contact() {
     {
       icon: "Phone",
       title: "phone",
-      description: "+91 98989 98988",
+      description: "+91 62603 57675 +91 89622 26599",
     },
     {
       icon: "Mail",
@@ -46,14 +46,27 @@ export default function Contact() {
           {/* Body */}
           <div className="w-full flex justify-center">
             <div className="flex flex-col flex-wrap gap-6 mt-14">
-              {contactCardsData.map((item, idx) => (
-                <ContactCard
-                  key={idx}
-                  icon={item.icon}
-                  title={item.title}
-                  description={item.description}
-                />
-              ))}
+              {contactCardsData.map((item, idx) => {
+                if (item.title === "phone") {
+                  return (
+                    <ContactCard
+                      key={idx}
+                      icon={item.icon}
+                      title={item.title}
+                      description={item.description}
+                      secondaryContactNo={true}
+                    />
+                  );
+                }
+                return (
+                  <ContactCard
+                    key={idx}
+                    icon={item.icon}
+                    title={item.title}
+                    description={item.description}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>

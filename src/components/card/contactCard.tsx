@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { getIcon } from "@/utils/iconsData";
 import { CardType } from "@/utils/types/cardType";
 
@@ -5,7 +6,8 @@ export default function ContactCard({
   icon = "Goal",
   title = "title",
   description = "description",
-}: Partial<CardType>) {
+  secondaryContactNo = false,
+}: Partial<CardType & { secondaryContactNo?: boolean }>) {
   const currentIcon = getIcon(icon);
   return (
     <>
@@ -18,7 +20,9 @@ export default function ContactCard({
           {/* Title */}
           <p className="font-semibold mb-0.5 capitalize text-sm">{title}</p>
           {/* Description */}
-          <p className="text-gray-600 text-xs">{description}</p>
+          <p className={clsx("text-gray-600 text-xs", secondaryContactNo ? "w-28" : "")}>
+            {description}
+          </p>
         </div>
       </div>
     </>
