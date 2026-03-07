@@ -1,6 +1,6 @@
+import Link from "next/link";
 import Image from "next/image";
 import { ArrowRightIcon, GraduationCap } from "lucide-react";
-import Link from "next/link";
 
 export default function Hero() {
   return (

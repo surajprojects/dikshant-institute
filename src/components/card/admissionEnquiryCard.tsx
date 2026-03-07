@@ -67,7 +67,7 @@ export default function AdmissionEnquiryCard() {
             {/* Full Name */}
             <FormField
               id="fullName"
-              title="Full Name"
+              title="Full Name*"
               textHolder="Your Name"
               fieldValue={formData.fullName}
               onChangeFunc={handleChange}
@@ -101,7 +101,7 @@ export default function AdmissionEnquiryCard() {
           {/* Course */}
           <div className="flex flex-col my-2 md:my-3 flex-1">
             <label htmlFor="course" className="font-sans font-medium text-sm text-gray-800">
-              Course Interested In
+              Course Interested In*
             </label>
             <select
               required

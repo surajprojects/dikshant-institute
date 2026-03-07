@@ -1,6 +1,6 @@
 import SectionHeader from "../ui/sectionHeader";
-import { CardTypeList } from "@/utils/types/cardType";
 import WhyDikshantCard from "../card/whyDikshantCard";
+import { CardTypeList } from "@/utils/types/cardType";
 import { SectionHeaderType } from "@/utils/types/sectionHeaderType";
 
 export default function WhyDikshant() {

@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import { LinksTypeList } from "@/utils/types/linksType";
 
 export default function MobileHeader({ navLinks }: { navLinks: LinksTypeList }) {
-  const [showMenu, setShowMenu] = useState<boolean>(true);
+  const [showMenu, setShowMenu] = useState<boolean>(false);
   return (
     <>
       <button
